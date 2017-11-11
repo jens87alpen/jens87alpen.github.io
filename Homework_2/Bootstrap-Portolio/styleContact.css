@@ -1,0 +1,142 @@
+/*
+body {
+	
+	font-family: 'Helvetica Neue', sans-serif;
+	background-image: url(../images/concrete-texture.png);
+}
+
+.navbar  {
+	width: 960px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.navbar-brand  {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #4aaaa5;
+}
+
+.container-fluid {
+	float: right;
+	margin: auto;
+}
+
+.Content-Area {
+	width: 960px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	display: -webkit-flex;
+    display: flex;
+    background-image: url(../images/concrete-texture.png);
+    margin-top: -21px;
+    border-top: 2px solid #cccccc;
+}
+
+.Box-Left {
+	width: 650px;
+	background-color: #ffffff;
+	height: 550px;
+	color: color: #777777;;
+	margin-right: 20px;
+	margin-top: 30px;
+	position: relative;
+	border: 1px solid #cccccc;
+}
+
+.Box-Left h2 {
+	padding: 15px 0px 20px 0px;
+	border-bottom: 3px solid #cccccc;
+	margin-left: 20px; 
+	margin-right: 25px;
+	color: #4aaaa5;
+}
+
+.container {
+	width: 650px;
+}
+
+input[type=text], select {
+    width: 610px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: 0px;
+    resize: vertical;
+    color: #777777;
+	
+}
+
+label, {
+	padding-left: 15px;
+	color: #777777;
+
+}
+
+textarea {
+	padding-left: 15px;
+	width: 610px;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-bottom: 16px;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 16px;
+    width: 100px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.Box-Right {
+	width: 300px;
+	height: 190px;
+	background-color: #ffffff;
+	margin-left: 10px;
+	margin-top: 30px;
+	text-align: center;
+	color: #4aaaa5;
+	position: relative;
+	border: 1px solid grey;
+}
+
+.Box-Right h3 {
+	text-align: center;
+	border-bottom: 3px solid #cccccc;
+	margin-left: 10px; 
+	margin-right: 10px;
+	padding: 5px 10px 20px 10px; 
+}
+
+footer {
+	background-color: grey;
+	text-align: center;
+	color: lightgrey;
+	width: auto;
+	margin: auto;
+	height: 100px;
+	border-top: 8px solid #4aaaa5;
+	padding-top: 50px;
+}
+
+.Box-Right img {
+	width: 70px;
+	height: 70px;
+	margin-top: 10px;
+	padding: 5px;
+}
+
