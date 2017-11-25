@@ -1,0 +1,16 @@
+.crystal {
+	height: 150px;
+	border: 2px solid red;
+	width: 100%;
+}
+
+.crystals {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+img {
+	width: 40px;
+	
+}

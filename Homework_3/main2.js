@@ -70,7 +70,6 @@ selectWord();
 document.game.usedLetters.value = "";
 used_letters = "";
 wrong_guesses = 0;
-document.hm.src="hmstart.gif";
 }
  
 function selectWord()

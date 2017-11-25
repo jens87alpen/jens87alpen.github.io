@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Collector</title>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+</head>
+<body style="background-image: url(stardust.png);">
+
+<div id="content" class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12">
+            	<div class="jumbotron">
+    				<h1>Hollywood Star Collector Game</h1> 
+    			</div>
+    		</div>
+    	</div>
+
+    	<div class="row">   
+			<div class="col-lg-12 col-sm-12">
+				<div class="alert alert-warning">
+    				<h4>You will be given a random number at the start of the game. 
+    					<br>
+    					<br>
+						There are four Hollywood Stars below. By clicking on a Star you will add a specific amount of point to your total score.
+						<br>
+    					<br>
+    					You will win the game by matching your Result to the random number, you lose the game if your total score goes above the random number.
+    					<br>
+    					<br>
+    					The value of each Star is hidden from you until you click on it.
+    					<br>
+    					<br>
+    					Each time when the game starts, the game will change the values of each Star.
+    				</h4>
+  				</div>
+  			</div>
+  		</div>
+		
+  		<div class="row">   
+			<div class="col-lg-6 col-sm-6">
+				<div class="alert alert-info">
+    				<h1 class="text-center" id="randomNumber"></h1>
+  				</div>
+  			</div>
+
+  			<div class="col-lg-6 col-sm-6">
+				<div class="alert alert-success">
+    				<span></span>
+    				<h1 class="text-center" id="win">Wins: </h1>
+    				<h1 class="text-center" id="lost">Losses: </h1>
+  				</div>
+  			</div>
+  		</div>
+
+		<div class="row">   
+			<div class="col-lg-12 col-sm-12">
+				<div class="crystals"></div>
+			</div>
+		</div>
+		
+
+  		<div class="row">   
+			<div class="col-lg-6 col-sm-6" >
+				<div class="alert alert-danger">
+    				<h1 class="text-center" id="result"></h1>
+  				</div>
+  			</div>
+  		</div>
+
+
+
+
+
+
+<script type="text/javascript" src="Crystal1.js"></script>
+</body>
+</html>
