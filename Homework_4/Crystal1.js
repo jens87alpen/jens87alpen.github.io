@@ -45,7 +45,7 @@ resetAndStartGame();
 
 	$(document).on("click", ".crystal", function() {
 		
-		//convert the string into a number so we can each crystal add up
+		//convert the string into a number so we can add up each crystal 
 		var number = parseInt($(this).attr('data-random'));
 
 
